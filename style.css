@@ -10,6 +10,38 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Footer {background: url(img/backgrBot.png) no-repeat; width: 1016px; height: 27px;}
 
+#Left{float:left; margin: 0 0 0 4px;}
+
+#Mid{float:left;}
+
+#Right{float:left;}
+
+#contactsMain{color:#4a6d14; font-family:Verdana; font-size:10pt;}
+
+#menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px;} 
+
+#menuButBot{background: url(img/MenuButBot.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
+
+a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
+a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
+a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: underline;}
+
+.menuBlueTop{background: url(img/MenuBlueTop.png) no-repeat; width:210px; height:42px; line-height: 37px; color: #fff; font-family:Verdana; font-size: 12pt; font-weight:bold;} 
+
+.menuBlueMain{background: url(img/MenuBlueMain.png) repeat-y; width:210px;} 
+
+.menuBlueBot{background: url(img/MenuBlueBot.png) no-repeat; width:210px; height:20px;} 
+
+.textTop{float:left; margin: 10px 0 0 10px;}
+
+.text{float:left; margin: 5px 0 0 10px;}
+
+.icon{float:left;}
+
+.menuBut{background: url(img/MenuBut.png) no-repeat; width:210px; height: 34px;} 
+
+.Line994{background: url(img/Line994.png) no-repeat; width:994px; height: 2px;} 
+
 .ButtonNachaloHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
 .ButtonNachalo{margin: 15px 0 0 0; width:79px;}
 
