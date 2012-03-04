@@ -12,15 +12,25 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Left{float:left; margin: 0 0 0 4px;}
 
-#Mid{float:left;}
+#Mid{float:left; margin: 3px 0 0 22px;}
 
-#Right{float:left;}
+#Right{float:left; margin: 3px 0 0 26px;}
 
 #contactsMain{color:#4a6d14; font-family:Verdana; font-size:10pt;}
 
 #menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px;} 
 
 #menuButBot{background: url(img/MenuButBot.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
+
+#Search{background: url(img/MidTop.png) no-repeat; width:540px; height: 55px;}
+
+#MidMain{background: url(img/MidMain.png) repeat-y; width:540px;}
+
+#MidBot{background: url(img/MidBot.png) no-repeat; width:540px; height: 20px;}
+
+#searchBut{background: url(img/searchButton.png) no-repeat; width:78px; height: 24px;}
+
+#search{ background:url(img/Search.png) no-repeat; width:534px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Verdana; font-weight: Bold; font-size:14px;}
 
 a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
 a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
