@@ -28,9 +28,39 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #MidBot{background: url(img/MidBot.png) no-repeat; width:540px; height: 20px;}
 
-#searchBut{background: url(img/searchButton.png) no-repeat; width:78px; height: 24px;}
+#searchBut{float: left; background: url(img/searchButton.png) no-repeat; width:78px; height: 24px;}
 
-#search{ background:url(img/Search.png) no-repeat; width:534px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Verdana; font-weight: Bold; font-size:14px;}
+#search{float:left; background:url(img/Search.png) no-repeat; width:440px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Verdana; font-weight: Bold; font-size:14px;}
+
+#offTitle{margin:-15px 0 5px 0; color: #424242; font-family:Verdana; font-size:10pt; font-weight: bold; text-decoration: none;}
+
+.offPic_1{float:left; margin: 8px 0 0 20px; border: 1px solid #4e701a;}
+
+.offPic_2{float:left; margin: 8px 0 0 20px; border: 1px solid #24769e;}
+
+.offText{float:left; margin: 8px 0 0 0; width: 340px; margin:7px 0 0 10px;}
+
+.offTextTitle_1{text-align: left; }
+.offTextTitle_1 a:link{color:#4e701a; text-decoration:none; font-size:10pt;}
+.offTextTitle_1 a:visited{color:#4e701a; text-decoration:none; font-size:10pt;}
+.offTextTitle_1 a:hover{color:#4e701a; text-decoration:underline;font-size:10pt; }
+
+.offTextTitle_2{text-align: left; }
+.offTextTitle_2 a:link{color:#24769e; text-decoration:none; font-size:10pt;}
+.offTextTitle_2 a:visited{color:#24769e; text-decoration:none; font-size:10pt;}
+.offTextTitle_2 a:hover{color:#24769e; text-decoration:underline;font-size:10pt; }
+
+.offTextDesc{text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Verdana; height:55px;}
+
+.offTextPrice{}
+
+.offTextPrice_{float:left; text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Verdana;}
+
+.offTextPrice_price{float:left;text-align: left; color:red; font-weight: bold; text-decoration:none; font-size:9pt; font-family: Verdana;}
+
+.line360{background: url(img/Line360.png) no-repeat; width:340px; height:2px; margin: 2px 0 2px 0;}
+
+.off{background: url(img/offBack.png) no-repeat; width:520px; height:120px; margin: 10px 0 0 0;}
 
 a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
 a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
