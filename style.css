@@ -44,6 +44,7 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #rightBlueBot{background: url(img/RightBlueBot.png) no-repeat; width:210px; height: 17px;}
 
+#Pochivki_onclick{width: 210px; background: url(img/poch_on_back.png) repeat-y; color: #fff; display:none;}
 
 a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
 a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
@@ -52,6 +53,11 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 .blueOff{margin: 0 0 0 15px;}
 
 .yellowPointer{float: left; background: url(img/YellowPointer.png) no-repeat; width:9px; height: 9px; margin: 5px 10px 0 0;}
+
+.poch_on_OffText{float:left; text-align: left; width: 170px; margin: 0 0 5px 10px;}
+.poch_on_OffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
+.poch_on_OffText a:visited{color:#fff; text-decoration:none; font-size:11pt;}
+.poch_on_OffText a:hover{color:#fff; text-decoration:underline;font-size:11pt; }
 
 .blueOffText{float:left; text-align: left; width: 170px;}
 .blueOffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
