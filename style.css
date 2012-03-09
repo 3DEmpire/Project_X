@@ -14,7 +14,7 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Mid{float:left; margin: 3px 0 0 22px;}
 
-#Right{float:left; margin: 3px 0 0 26px;}
+#Right{float:left; margin: 0 0 0 26px;}
 
 #contactsMain{color:#4a6d14; font-family:Verdana; font-size:10pt;}
 
@@ -28,11 +28,35 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #MidBot{background: url(img/MidBot.png) no-repeat; width:540px; height: 20px;}
 
-#searchBut{float: left; background: url(img/searchButton.png) no-repeat; width:78px; height: 24px;}
+#searchBut{float: left; background: url(img/searchButton.png) no-repeat; width:90px; height: 26px; margin:3px 0 0 -6px; line-height:22px;}
+#searchBut:hover{float: left; background: url(img/searchButtonHover.png) no-repeat; width:90px; height: 26px; margin:3px 0 0 -6px; line-height:22px;}
+#searchBut a:link{color: #424242; font-family:Verdana; font-size:11pt; text-decoration: none;}
+#searchBut a:visited{color: #424242; font-family:Verdana; font-size:11pt; text-decoration: none;}
+#searchBut a:hover{color: #424242; font-family:Verdana; font-size:11pt; text-decoration: underline;}
 
 #search{float:left; background:url(img/Search.png) no-repeat; width:440px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Verdana; font-weight: Bold; font-size:14px;}
 
 #offTitle{margin:-15px 0 5px 0; color: #424242; font-family:Verdana; font-size:10pt; font-weight: bold; text-decoration: none;}
+
+#rightBlueTop{background: url(img/RightBlueTop.png) no-repeat; width:210px; height: 37px;}
+
+#rightBlueMain{background: url(img/RightBlueMain.png) repeat-y; width:210px;}
+
+#rightBlueBot{background: url(img/RightBlueBot.png) no-repeat; width:210px; height: 17px;}
+
+
+a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
+a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
+a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: underline;}
+
+.blueOff{margin: 0 0 0 15px;}
+
+.yellowPointer{float: left; background: url(img/YellowPointer.png) no-repeat; width:9px; height: 9px; margin: 5px 10px 0 0;}
+
+.blueOffText{float:left; text-align: left; width: 170px;}
+.blueOffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
+.blueOffText a:visited{color:#fff; text-decoration:none; font-size:11pt;}
+.blueOffText a:hover{color:#fff; text-decoration:underline;font-size:11pt; }
 
 .offPic_1{float:left; margin: 8px 0 0 20px; border: 1px solid #4e701a;}
 
@@ -62,15 +86,17 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 .off{background: url(img/offBack.png) no-repeat; width:520px; height:120px; margin: 10px 0 0 0;}
 
-a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
-a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
-a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: underline;}
-
 .menuBlueTop{background: url(img/MenuBlueTop.png) no-repeat; width:210px; height:42px; line-height: 37px; color: #fff; font-family:Verdana; font-size: 12pt; font-weight:bold;} 
 
 .menuBlueMain{background: url(img/MenuBlueMain.png) repeat-y; width:210px;} 
 
 .menuBlueBot{background: url(img/MenuBlueBot.png) no-repeat; width:210px; height:20px;} 
+
+.menuGreenTop{background: url(img/MenuGreenTop.png) no-repeat; width:210px; height:42px; line-height: 42px; color: #fff; font-family:Verdana; font-size: 12pt; font-weight:bold;} 
+
+.menuGreenMain{background: url(img/MenuGreenMain.png) repeat-y; width:210px;} 
+
+.menuGreenBot{background: url(img/MenuGreenBot.png) no-repeat; width:210px; height:25px;} 
 
 .textTop{float:left; margin: 10px 0 0 10px;}
 
@@ -82,19 +108,33 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 
 .Line994{background: url(img/Line994.png) no-repeat; width:994px; height: 2px;} 
 
-.ButtonNachaloHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
-.ButtonNachalo{margin: 15px 0 0 0; width:79px;}
+.ButtonNachaloHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonNachalo{margin: 15px 0 0 0; width: 79px;}
 
-.ButtonAboutHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
-.ButtonAbout{margin: 15px 0 0 0; width:79px;}
+.ButtonAboutHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonAbout{margin: 15px 0 0 0; width:79px; }
 
-.ButtonLicenzHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
+.ButtonLicenzHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
 .ButtonLicenz{margin: 15px 0 0 0; width:79px;}
 
-.Button {float: left; margin: 0 0 0 15px;}
+.ButtonKontHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonKont{margin: 15px 0 0 0; width:79px;}
+
+.ButtonYzZHover{background: url(img/YzZHover.png) no-repeat; width: 220px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonYzZ{margin: 15px 0 0 0; width:220px;}
+
+.ButtonBsHover{background: url(img/BsHover.png) no-repeat; width: 150px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonBs{margin: 15px 0 0 0; width:150px;}
+
+.Button {float: left; margin: 0 0 0 1px;}
 .Button a:link{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 .Button a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 .Button a:hover{color: #fff; text-decoration: underline; font-family: Verdana; font-size: 12pt;}
+
+.ButtonFirst {float: left; margin: 0 0 0 13px;}
+.ButtonFirst a:link{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
+.ButtonFirst a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
+.ButtonFirst a:hover{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 
 
 .clearer {clear: both;}
