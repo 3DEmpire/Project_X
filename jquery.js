@@ -6,3 +6,6 @@ $(function() {
 			$(".ButtonNachaloHover").fadeOut(1000);
 		});
 });
+function showPochivki() {
+			$("#Pochivki_onclick").slideToggle(500);
+}
