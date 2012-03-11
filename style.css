@@ -54,7 +54,7 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 
 .yellowPointer{float: left; background: url(img/YellowPointer.png) no-repeat; width:9px; height: 9px; margin: 5px 10px 0 0;}
 
-.poch_on_OffText{float:left; text-align: left; width: 170px; margin: 0 0 5px 10px;}
+.poch_on_OffText{text-align: left; background: url(img/poch_on_back1.png) no-repeat; height:25px; width: 210px; margin: 0 0 0 0;}
 .poch_on_OffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
 .poch_on_OffText a:visited{color:#fff; text-decoration:none; font-size:11pt;}
 .poch_on_OffText a:hover{color:#fff; text-decoration:underline;font-size:11pt; }
@@ -114,8 +114,8 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 
 .Line994{background: url(img/Line994.png) no-repeat; width:994px; height: 2px;} 
 
-.ButtonNachaloHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
-.ButtonNachalo{margin: 15px 0 0 0; width: 79px;}
+.ButtonNachalo{margin: 14px 0 0 0; width: 79px;}
+.ButtonNachalo:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 33px;  line-height: 28px;}
 
 .ButtonAboutHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
 .ButtonAbout{margin: 15px 0 0 0; width:79px; }
@@ -126,8 +126,18 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 .ButtonKontHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0; display:none;}
 .ButtonKont{margin: 15px 0 0 0; width:79px;}
 
-.ButtonYzZHover{background: url(img/YzZHover.png) no-repeat; width: 220px; height: 26px; margin: -21px 0 0 0; display:none;}
+.ButtonYzZHover{background: url(img/YzZHover.png) no-repeat; width: 220px; height: 26px; margin: -21px 0 0 0;}
 .ButtonYzZ{margin: 15px 0 0 0; width:220px;}
+.ButtonYzZ a:link{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
+.ButtonYzZ a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
+.ButtonYzZ a:hover{color: #fff; text-decoration: underline; font-family: Verdana; font-size: 12pt;}
+
+.ButtonYzZ_down{text-align: left; position: absolute; top: 321px; left: 420px; width:330px; display: none;}
+.ButtonYzZ_down1{height: 30px;  background-color:#c5e1ee; border: 1px solid #2a9cd2; line-height: 30px; padding: 0 0 0 2px;}
+.ButtonYzZ_down1:hover{background-color:#c0dce9;}
+.ButtonYzZ_down1 a:link{color: #4a4a4a; font-size:10pt; font-family: Verdana; }
+.ButtonYzZ_down1 a:visited{color: #4a4a4a; font-size:10pt; font-family: Verdana;}
+.ButtonYzZ_down1 a:hover{color: #4a4a4a; font-size:10pt; font-family: Verdana;}
 
 .ButtonBsHover{background: url(img/BsHover.png) no-repeat; width: 150px; height: 26px; margin: -21px 0 0 0; display:none;}
 .ButtonBs{margin: 15px 0 0 0; width:150px;}
@@ -137,7 +147,7 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 .Button a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 .Button a:hover{color: #fff; text-decoration: underline; font-family: Verdana; font-size: 12pt;}
 
-.ButtonFirst {float: left; margin: 0 0 0 13px;}
+.ButtonFirst {float: left; margin: 0 0 0 16px;}
 .ButtonFirst a:link{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 .ButtonFirst a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
 .ButtonFirst a:hover{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
