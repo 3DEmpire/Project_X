@@ -1,11 +1,13 @@
 $(document).ready(function() {
 		
-		$(".ButtonYzZ").bind('click', slideDown);
-		
-		function slideDown() {
-			$(".ButtonYzZ_down").slideToggle(300);
-		}
+			$('.Button2').hover(function() {
+				$(".ButtonYzZ_down").slideDown(120);
+				$(".ButtonYzZHover").show();
+			}, function () {
+				$(".ButtonYzZ_down").slideUp(120);
+				$(".ButtonYzZHover").hide();
+			});
 });
 function showPochivki() {
-			$("#Pochivki_onclick").slideToggle(500);
+			$("#Pochivki_onclick").stop().slideToggle(500);
 }
