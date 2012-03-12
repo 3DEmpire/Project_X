@@ -2,21 +2,21 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #GrandContainer {}
 
-#Header{background: url(img/header.png) no-repeat; width: 1016px; height: 302px;}
+#Header{background: url(img/header.png) no-repeat; width: 999px; height: 302px;}
 
-#Nav {background: url(img/backgrTop.png) no-repeat; width: 1016px; height: 43px; margin: -30px 0 0 0;}
+#Nav {background: url(img/backgrTop.png) no-repeat; width: 999px; height: 43px; margin: -30px 0 0 0;}
 
-#Main {background: url(img/backgrMain.png) repeat-y; width: 1016px; margin: -1px 0 0 0;}
+#Main {background: url(img/backgrMain.png) repeat-y; width: 999px; margin: -1px 0 0 0;}
 
-#Footer {background: url(img/backgrBot.png) no-repeat; width: 1016px; height: 27px;}
+#Footer {background: url(img/backgrBot.png) no-repeat; width: 999px; height: 27px;}
 
 #Left{float:left; margin: 0 0 0 4px;}
 
-#Mid{float:left; margin: 3px 0 0 22px;}
+#Mid{float:left; margin: 3px 0 0 15px;}
 
-#Right{float:left; margin: 3px 0 0 26px;}
+#Right{float:left; margin: 0 0 0 16px;}
 
-#contactsMain{color:#4a6d14; font-family:Verdana; font-size:10pt;}
+#contactsMain{color:#4a6d14; font-family:Arial; font-size:10pt;}
 
 #menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px;} 
 
@@ -28,19 +28,82 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #MidBot{background: url(img/MidBot.png) no-repeat; width:540px; height: 20px;}
 
-#searchBut{background: url(img/searchButton.png) no-repeat; width:78px; height: 24px;}
+#searchBut{float: left; background: url(img/searchButton.png) no-repeat; width:90px; height: 26px; margin:3px 0 0 -6px; line-height:22px;}
+#searchBut:hover{float: left; background: url(img/searchButtonHover.png) no-repeat; width:90px; height: 26px; margin:3px 0 0 -6px; line-height:22px;}
+#searchBut a:link{color: #424242; font-family:Arial; font-size:11pt; text-decoration: none;}
+#searchBut a:visited{color: #424242; font-family:Arial; font-size:11pt; text-decoration: none;}
+#searchBut a:hover{color: #424242; font-family:Arial; font-size:11pt; text-decoration: underline;}
 
-#search{ background:url(img/Search.png) no-repeat; width:534px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Verdana; font-weight: Bold; font-size:14px;}
+#search{float:left; background:url(img/Search.png) no-repeat; width:440px; height: 28px; border: none; color: #4a4a4a; margin: 2px 0 0 3px; padding: 0 0 0 10px; font-family: Arial; font-weight: Bold; font-size:14px;}
 
-a:link {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
-a:visited {color: #424242; font-family:Verdana; font-size:12pt; text-decoration: none;}
-a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: underline;}
+#offTitle{margin:-15px 0 5px 0; color: #424242; font-family:Arial; font-size:10pt; font-weight: bold; text-decoration: none;}
 
-.menuBlueTop{background: url(img/MenuBlueTop.png) no-repeat; width:210px; height:42px; line-height: 37px; color: #fff; font-family:Verdana; font-size: 12pt; font-weight:bold;} 
+#rightBlueTop{background: url(img/RightBlueTop.png) no-repeat; width:210px; height: 37px;}
+
+#rightBlueMain{background: url(img/RightBlueMain.png) repeat-y; width:210px;}
+
+#rightBlueBot{background: url(img/RightBlueBot.png) no-repeat; width:210px; height: 17px;}
+
+#Pochivki_onclick{width: 210px; background: url(img/poch_on_back.png) repeat-y; color: #fff; display:none;}
+
+a:link {color: #424242; font-family:Arial; font-size:12pt; text-decoration: none;}
+a:visited {color: #424242; font-family:Arial; font-size:12pt; text-decoration: none;}
+a:hover{color: #4a6d14; font-family:Arial; font-size:12pt; text-decoration: underline;}
+
+.blueOff{margin: 0 0 0 15px;}
+
+.yellowPointer{float: left; background: url(img/YellowPointer.png) no-repeat; width:9px; height: 9px; margin: 5px 10px 0 0;}
+
+.poch_on_OffText{text-align: left; background:#818181; height:25px; width: 192px; margin: 0 4px 0 0; border-top:1px solid #464646; border-left:1px solid #464646; padding:4px 0 0 10px;}
+.poch_on_OffText:hover{background:#989898;}
+.poch_on_OffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
+.poch_on_OffText a:visited{color:#fff; text-decoration:none; font-size:11pt;}
+.poch_on_OffText a:hover{color:#fff; text-decoration:underline;font-size:11pt; }
+
+.blueOffText{float:left; text-align: left; width: 170px;}
+.blueOffText a:link{color:#fff; text-decoration:none; font-size:11pt;}
+.blueOffText a:visited{color:#fff; text-decoration:none; font-size:11pt;}
+.blueOffText a:hover{color:#fff; text-decoration:underline;font-size:11pt; }
+
+.offPic_1{float:left; margin: 8px 0 0 20px; border: 1px solid #4e701a;}
+
+.offPic_2{float:left; margin: 8px 0 0 20px; border: 1px solid #24769e;}
+
+.offText{float:left; margin: 8px 0 0 0; width: 340px; margin:7px 0 0 10px;}
+
+.offTextTitle_1{text-align: left; }
+.offTextTitle_1 a:link{color:#4e701a; text-decoration:none; font-size:10pt;}
+.offTextTitle_1 a:visited{color:#4e701a; text-decoration:none; font-size:10pt;}
+.offTextTitle_1 a:hover{color:#4e701a; text-decoration:underline;font-size:10pt; }
+
+.offTextTitle_2{text-align: left; }
+.offTextTitle_2 a:link{color:#24769e; text-decoration:none; font-size:10pt;}
+.offTextTitle_2 a:visited{color:#24769e; text-decoration:none; font-size:10pt;}
+.offTextTitle_2 a:hover{color:#24769e; text-decoration:underline;font-size:10pt; }
+
+.offTextDesc{text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Arial; height:55px;}
+
+.offTextPrice{}
+
+.offTextPrice_{float:left; text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Arial;}
+
+.offTextPrice_price{float:left;text-align: left; color:red; font-weight: bold; text-decoration:none; font-size:9pt; font-family: Arial;}
+
+.line360{background: url(img/Line360.png) no-repeat; width:340px; height:2px; margin: 2px 0 2px 0;}
+
+.off{background: url(img/offBack.png) no-repeat; width:520px; height:120px; margin: 10px 0 0 0;}
+
+.menuBlueTop{background: url(img/MenuBlueTop.png) no-repeat; width:210px; height:42px; line-height: 37px; color: #fff; font-family:Arial; font-size: 12pt; font-weight:bold;} 
 
 .menuBlueMain{background: url(img/MenuBlueMain.png) repeat-y; width:210px;} 
 
 .menuBlueBot{background: url(img/MenuBlueBot.png) no-repeat; width:210px; height:20px;} 
+
+.menuGreenTop{background: url(img/MenuGreenTop.png) no-repeat; width:210px; height:42px; line-height: 42px; color: #fff; font-family:Arial; font-size: 12pt; font-weight:bold;} 
+
+.menuGreenMain{background: url(img/MenuGreenMain.png) repeat-y; width:210px;} 
+
+.menuGreenBot{background: url(img/MenuGreenBot.png) no-repeat; width:210px; height:25px;} 
 
 .textTop{float:left; margin: 10px 0 0 10px;}
 
@@ -50,21 +113,50 @@ a:hover{color: #4a6d14; font-family:Verdana; font-size:12pt; text-decoration: un
 
 .menuBut{background: url(img/MenuBut.png) no-repeat; width:210px; height: 34px;} 
 
-.Line994{background: url(img/Line994.png) no-repeat; width:994px; height: 2px;} 
+.Line994{background: url(img/Line994.png) no-repeat; width:977px; height: 2px;} 
 
-.ButtonNachaloHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
-.ButtonNachalo{margin: 15px 0 0 0; width:79px;}
+.ButtonNachalo{width: 79px;}
+.ButtonNachalo:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 29px; margin:-2px 0 0 0; padding:2px 0 0 0;}
 
-.ButtonAboutHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
-.ButtonAbout{margin: 15px 0 0 0; width:79px;}
+.ButtonAbout{width:79px;}
+.ButtonAbout:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin:-2px 0 0 0; padding:2px 0 0 0;}
 
-.ButtonLicenzHover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin: -21px 0 0 0;}
-.ButtonLicenz{margin: 15px 0 0 0; width:79px;}
+.ButtonLicenz{width:79px;}
+.ButtonLicenz:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin:-2px 0 0 0; padding:2px 0 0 0;}
 
-.Button {float: left; margin: 0 0 0 15px;}
-.Button a:link{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
-.Button a:visited{color: #4a4a4a; text-decoration: none; font-family: Verdana; font-size: 12pt;}
-.Button a:hover{color: #fff; text-decoration: underline; font-family: Verdana; font-size: 12pt;}
+.ButtonKont{width:79px;}
+.ButtonKont:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 26px; margin:-2px 0 0 0; padding:2px 0 0 0;}
+
+.ButtonYzZ{width:220px;}
+.ButtonYzZHover{background: url(img/YzZHover.png) no-repeat; width: 220px; height: 26px;  margin:-20px 0 0 0; padding:2px 0 0 0; display:none;}
+.ButtonYzZ a:link{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.ButtonYzZ a:visited{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.ButtonYzZ a:hover{color: #fff; text-decoration: underline; font-family: Arial; font-size: 12pt;}
+
+.ButtonYzZ_down{text-align: left; position: absolute; top: 321px; margin: 0 0 0 256px; width:330px; display: none;}
+.ButtonYzZ_down1{height: 30px;  background-color:#c5e1ee; border: 1px solid #2a9cd2; line-height: 30px; padding: 0 0 0 2px;}
+.ButtonYzZ_down1:hover{background-color:#c0dce9;}
+.ButtonYzZ_down1 a:link{color: #4a4a4a; font-size:10pt; font-family: Arial; }
+.ButtonYzZ_down1 a:visited{color: #4a4a4a; font-size:10pt; font-family: Arial;}
+.ButtonYzZ_down1 a:hover{color: #4a4a4a; font-size:10pt; font-family: Arial;}
+
+.ButtonBs{width:150px;}
+.ButtonBs:hover{background: url(img/BsHover.png) no-repeat; width: 150px; height: 26px; margin:-2px 0 0 0; padding:2px 0 0 0;}
+
+.Button {float: left; margin: 15px 0 0 1px;}
+.Button a:link{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.Button a:visited{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.Button a:hover{color: #fff; text-decoration: underline; font-family: Arial; font-size: 12pt;}
+
+.Button2 {float: left; margin: 15px 0 0 1px;}
+.Button2 a:link{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.Button2 a:visited{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.Button2 a:hover{color: #fff; text-decoration: underline; font-family: Arial; font-size: 12pt;}
+
+.ButtonFirst {float: left; margin: 15px 0 0 16px;}
+.ButtonFirst a:link{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.ButtonFirst a:visited{color: #4a4a4a; text-decoration: none; font-family: Arial; font-size: 12pt;}
+.ButtonFirst a:hover{color: #fff; text-decoration: underline; font-family: Arial; font-size: 12pt;}
 
 
 .clearer {clear: both;}
