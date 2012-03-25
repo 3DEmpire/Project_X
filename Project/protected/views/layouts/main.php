@@ -1,10 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
 	<meta name="language" content="en" />
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/jquery/jquery.js" type="text/javascript"></script>
 
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
@@ -15,18 +13,29 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
+	
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/jquery.js" type="text/javascript"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/bg_BG/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <center>
 	<div id="GrandContainer">
 		<div id="Header"></div>
 		<div id="Nav">
 			<div class="ButtonFirst">
-				<div class="ButtonNachalo"><a class="active" href="<?php echo Yii::app()->request->baseUrl; ?>">Начало</a></div>
+				<div class="ButtonNachalo"><a href="index.php">Начало</a></div>
 			</div>
 			<div class="Button">
 				<div class="ButtonAbout"><a href="#" >За Нас</a></div>
@@ -42,7 +51,7 @@
 				<div class="ButtonBs"><a href="#">Банкови сметки</a></div>
 			</div>
 			<div class="Button">
-				<div class="ButtonKont"><a href='?r=/site/contact'>Контакти</a></div>
+				<div class="ButtonKont"><a ="?r/site/contact">Контакти</a></div>
 			</div>
 			<div class="clearer"></div>
 		</div>
@@ -95,22 +104,22 @@
 							<div class="clearer"></div>
 						</div></a>
 						<a href="#"><div class="menuBut">
-							<div class="text"><a href='?r=/site/page/view/about'>Хотели</div>
+							<div class="text">Хотели</div>
 							<div class="icon"></div>
 							<div class="clearer"></div>
 						</div></a>
 						<a href="#"><div class="menuBut">
-							<div class="text"><a href='?r=/site/contact'>Круизи</div>
+							<div class="text">Круизи</div>
 							<div class="icon"></div>
 							<div class="clearer"></div>
 						</div></a>
 							<a href="#"><div class="menuBut">
-							<div class="text"><a href='?r=/site/admin'>ПРАЗНИЦИ</div>
+							<div class="text">ПРАЗНИЦИ</div>
 							<div class="icon"></div>
 							<div class="clearer"></div>
 						</div></a>
 							<a href="#"><div id="menuButBot">
-							<div class="text"><a href='?r=/site/demo'>Уикенди</div>
+							<div class="text">Уикенди</div>
 							<div class="icon"></div>
 							<div class="clearer"></div>
 						</div></a>
@@ -124,20 +133,15 @@
 			</div>
 			<div id="Mid">
 				<div id="Search">
-                	<form action="?r=/site/search" method="post">
 					<div id="searchInput">
 						<input id="search" type="text" maxlength="25" size="15" name="search" />
 					</div>
-					<div id="searchBut">
-                    	<input type="submit" value="Намери" border="0" />
-                    	<a href="?r=/site/search">Намери</a>
-                    </div>
+					<div id="searchBut"><a href="#">Намери</a></div>
 					<div class="clearer"></div>
-                    </form>
 				</div>
 				<div id="MidMain">
 					<div id="offTitle">-Оферти-</div>
-                    <?php echo $content; ?>
+					<?php echo $content; ?>
 				</div>
 				<div id="MidBot"></div>
 			</div>
@@ -209,14 +213,16 @@
 					<div id="rightBlueBot"></div>
 				</div>
 				<div class="menuGreen">
-						<div class="menuGreenTop">Нещо</div>
-						<div class="menuGreenMain">sdasdasdasd</div>
+						<div class="menuGreenTop">facebook</div>
+						<div class="menuGreenMain">
+							<div class="fb-like-box" data-href="http://www.facebook.com/IvanikoTur" data-width="206" data-show-faces="true" data-border-color="#466a14" data-stream="false" data-header="true"></div>
+						</div>
 						<div class="menuGreenBot"></div>
 				</div>
 			</div>
 			<div class="clearer"></div>
 		</div>
-		<div id="Footer"></div>
+		<div id="Footer">Foooter</div>
 	</div>
 	</center>
 </body>
