@@ -222,7 +222,7 @@
 			</div>
 			<div class="clearer"></div>
 		</div>
-		<div id="Footer"></div>
+		<div id="Footer">Foooter</div>
 	</div>
 	</center>
 </body>
