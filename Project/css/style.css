@@ -132,7 +132,7 @@ a:hover{color: #4a6d14; font-family:Arial; font-size:12pt; text-decoration: unde
 .offTextTitle_2 a:visited{color:#24769e; text-decoration:none; font-size:10pt;}
 .offTextTitle_2 a:hover{color:#24769e; text-decoration:underline;font-size:10pt; }
 
-.offTextDesc{text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Arial; height:55px; border:1px solid red;}
+.offTextDesc{text-align: left; color:#424242; text-decoration:none; font-size:9pt; font-family: Arial; height:55px;}
 
 .offTextPrice{}
 
