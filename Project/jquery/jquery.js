@@ -37,7 +37,7 @@ function setNavigationHoverEvents() {
 		function()
 		{		
 			$(this).parents("ul.SubMenu:hidden");			
-			$(this).find("ul.SubMenu:first").slideDown(150);
+			$(this).find("ul.SubMenu:first").slideDown(300);
 		},
 		function()
 		{		
