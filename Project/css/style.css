@@ -2,31 +2,43 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #GrandContainer {}
 
-#Header{background: url(img/header.png) no-repeat; width: 999px; height: 302px;}
+#Header{height: 302px;}
 
-#Nav {background: url(img/backgrTop.png) no-repeat; width: 999px; height: 43px; margin: -30px 0 0 0;}
+#Nav {background: url(img/backgrTop.png) no-repeat; width: 999px; height: 43px; margin:-9px 0 0 0;}
+
+#Menu{margin-top: 0;}
+
+#Menu ul#menuButs{list-style: none; margin: 0 0 0 -20px;} 
 
 #Main {background: url(img/backgrMain.png) repeat-y; width: 999px; margin: -1px 0 0 0;}
 
-#Footer {background: url(img/backgrBot.png) no-repeat; width: 999px; height: 27px;}
+#Footer {background: url(img/backgrBot.png) no-repeat; width: 999px; height: 27px; line-height: 6px;}
 
 #Left{float:left; margin: 0 0 0 4px;}
 
 #Mid{float:left; margin: 3px 0 0 15px;}
 
-#Right{float:left; margin: 0 0 0 16px;}
+#Right{float:left; margin: 2px 0 0 16px;}
 
-#contactsMain{color:#4a6d14; font-family:Arial; font-size:10pt;}
+#slider{position:relative; width:999px; height:302px; background: url(img/loading.gif) no-repeat 50% 50%;}
+
+#slider img { position:absolute; top:0; left:0; display:none;}
+
+#contactsMain{color:#4a6d14; font-family:Arial; font-size:10pt; margin:0 0 5px 0;}
 
 #menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px;} 
+#menuButTop:hover{background: url(img/MenuButTopHover.png) no-repeat; width:210px; height: 37px;} 
 
 #menuButBot{background: url(img/MenuButBot.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
+#menuButBot:hover{background: url(img/MenuButBotHover.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
 
 #Search{background: url(img/MidTop.png) no-repeat; width:540px; height: 55px;}
 
 #Search_big{background: url(img/MidTop_big.png) no-repeat; width:750px; height: 55px;}
 
 #MidMain{background: url(img/MidMain.png) repeat-y; width:540px;}
+
+#MidMainPhp{width:520px; padding:0 10px 0 10px;}
 
 #MidMain_big{background: url(img/MidMain_big.png) repeat-y; width:750px;}
 
@@ -53,12 +65,17 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 #rightBlueBot{background: url(img/RightBlueBot.png) no-repeat; width:210px; height: 17px;}
 
 #Pochivki_onclick{width: 210px; background: url(img/poch_on_back.png) repeat-y; color: #fff; display:none;}
+#Pochivki_onclick a:link {color:#fff; text-decoration:none; font-size:11pt; font-family: Arial, Tahoma, Verdana, sans-serif;}
+#Pochivki_onclick a:visited {color:#fff; text-decoration:none; font-size:11pt; font-family: Arial, Tahoma, Verdana, sans-serif;}
+#Pochivki_onclick a:hover {color:#fff; text-decoration:underline; font-size:11pt; font-family: Arial, Tahoma, Verdana, sans-serif;}
 
 #Footer #FooterLeft{float:left; margin: 0 0 0 20px;}
 
 #Footer #FooterRight{float:right; margin: 0 20px 0 0;}
 
-#Nav ul.NavMain {display: inline; list-style: none; margin-top:0px;} 
+#Nav ul.NavMain {display: inline; list-style: none; margin-top:0px;}
+
+#Right ul#TopOferti{display: inline; list-style: none; margin-top:0px;} 
 
 #Nav ul.NavMain li {float: left; margin: 14px 0 0 5px;}
 
@@ -66,7 +83,13 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Nav ul.NavMain li.NavMain_drop {display:inline; list-style:none; float: left; margin: 14px 0 0 5px;}
 
-#Nav ul.NavMain li.NavMain_drop ul.SubMenu {display: none;  position:absolute; top:298px; margin:0 0 0 -25px;}
+#Nav ul.NavMain li.NavMain_drop ul.SubMenu {display: none;  position:absolute; top:319px; margin:0 0 0 -25px;}
+
+#Nav ul.NavMain li.NavMain_drop ul.SubMenu a:link {color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:10pt; text-decoration: none;}
+
+#Nav ul.NavMain li.NavMain_drop ul.SubMenu a:visited {color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:10pt; text-decoration: none;}
+
+#Nav ul.NavMain li.NavMain_drop ul.SubMenu a:hover {color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:10pt; text-decoration: underline;}
 
 #Nav ul.NavMain li a, ul.NavMain li a:link,  ul.NavMain li a:visited {line-height: 20px; color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12pt; text-decoration: none;}
 
@@ -74,11 +97,9 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Nav ul.NavMain li.NavMain_drop ul{list-style: none; text-align: left; margin: 0 0 0 256px; width:330px; display:none;}
 
-#menuMainButs ul{display: inline; list-style: none; margin-top:0px;} 
-
-a:link {color: #424242; font-family:Arial; font-size:12pt; text-decoration: none;}
-a:visited {color: #424242; font-family:Arial; font-size:12pt; text-decoration: none;}
-a:hover{color: #4a6d14; font-family:Arial; font-size:12pt; text-decoration: underline;}
+a:link {color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12pt; text-decoration: none;}
+a:visited {color: #424242; font-family: Arial, Tahoma, Verdana, sans-serif; font-size:12pt; text-decoration: none;}
+a:hover{color: #4a6d14; font-family: Arial, Tahoma, Verdana, sans-serif;  font-size:12pt; text-decoration: underline;}
 
 .blueOff{margin: 0 0 0 15px;}
 
@@ -165,9 +186,105 @@ a:hover{color: #4a6d14; font-family:Arial; font-size:12pt; text-decoration: unde
 .fb-like-box{margin:0 0 0 1px;}
 
 .menuBut{background: url(img/MenuBut.png) no-repeat; width:210px; height: 34px;} 
+.menuBut:hover{background: url(img/MenuButHover.png) no-repeat; width:210px; height: 34px;} 
 
-.Line994{background: url(img/Line994.png) no-repeat; width:977px; height: 2px;} 
+.Line994{background: url(img/Line994.png) no-repeat; width:977px; height: 2px; margin:0 0 5px 0;} 
 
 .fb-like-box-blue{margin: 0 0 0 1px;}
 
 .clearer {clear: both;}
+
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	font-family: arial, sans-serif;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+	margin: -20px 0 0 0;
+	width:200px;
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+	background: url(img/arrows.png) no-repeat;
+	text-indent: -9999px;
+	width:30px;
+	height:30px;
+	display: block;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+a.nivo-nextNav {
+	right:15px;
+	background-position: -30px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	margin:0 0 0 460px;
+}
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	float:left;
+	background: url(img/bullets.png) no-repeat;
+	width:22px;
+	height:22px;
+	text-indent: -9999px;
+	margin:270px 0 0 0;
+}
+.nivo-controlNav a.active {
+	background-position: 0 -22px;
+}
