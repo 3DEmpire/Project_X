@@ -99,7 +99,7 @@ $(window).load(function() {
 					<ul class="SubMenu">
 						<li>
 							<a href="#"><div class="ButtonYzZ_down1">Договор с клиент за организирано пътуване</div></a>
-							<a href="#"><div class="ButtonYzZ_down1">Договор при пътуване със собствен транспорт</div></a>
+							<a href="#"><div class="ButtonYzZ_down2">Договор при пътуване със собствен транспорт</div></a>
 						</li>
 					</ul>
 				</li>
@@ -116,10 +116,6 @@ $(window).load(function() {
 			</ul>
 		</div>
 		<div id="Main">
-			<!--<div class="ButtonYzZ_down">
-					<div class="ButtonYzZ_down1"><a href="#">Договор с клиент за организирано пътуване</a></div>
-					<div class="ButtonYzZ_down1"><a href="#">Договор при пътуване със собствен транспорт</a></div>
-			</div>-->
 			<div id="Contacts">
 				<div class="Line994"></div>
 				<div id="contactsMain">
@@ -129,13 +125,12 @@ $(window).load(function() {
 			</div>
 			<div id="Left">
 				<div id="Menu">
-						<ul id="menuButs">
-							<a href="#"><li id="menuButTop">
+							<a href="#"><div id="menuButTop">
 								<span class="textTop">Начало</span>
-							</li></a>
-							<a href="#" onclick="showPochivki()"><li class="menuBut">
+							</div></a>
+							<a href="#" onclick="showPochivki()"><div class="menuBut">
 								<span class="text">Почивки</span>
-							</li></a>
+							</div></a>
 							<div id="Pochivki_onclick">
 										<a href="#"><div class="poch_on_OffText">България</div></a>
 										<a href="#"><div class="poch_on_OffText">Турция</div></a>
@@ -148,25 +143,24 @@ $(window).load(function() {
 
 										<a href="#"><div class="poch_on_OffText">Други страни</div></a>
 							</div>
-							<a href="#"><li class="menuBut">
+							<a href="#"><div class="menuBut">
 								<span class="text">Екскурзии</span>
-							</li></a>
-							<a href="#"><li class="menuBut">
+							</div></a>
+							<a href="#"><div class="menuBut">
 								<span class="text">Екскурзии</span>
-							</li></a>
-							<a href="#"><li class="menuBut">
+							</div></a>
+							<a href="#"><div class="menuBut">
 								<span class="text">Хотели</span>
-							</li></a>
-							<a href="#"><li class="menuBut">
+							</div></a>
+							<a href="#"><div class="menuBut">
 								<span class="text">Круизи</span>
-							</li></a>
-							<a href="#"><li class="menuBut">
+							</div></a>
+							<a href="#"><div class="menuBut">
 								<span class="text">ПРАЗНИЦИ</span>
-							</li></a>
-							<a href="#"><li id="menuButBot">
+							</div></a>
+							<a href="#"><div id="menuButBot">
 								<span class="text">Уикенди</span>
-							</li></a>
-						</ul>
+							</div></a>
 				</div>
 				<div class="menuBlue">
 						<div class="menuBlueTop">Нещо</div>
