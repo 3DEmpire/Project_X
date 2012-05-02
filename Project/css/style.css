@@ -6,13 +6,15 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #Nav {background: url(img/backgrTop.png) no-repeat; width: 999px; height: 43px; margin:-9px 0 0 0;}
 
-#Menu{margin-top: 0;}
+#Menu{margin-top: 0px;}
 
 #Menu ul#menuButs{list-style: none; margin: 0 0 0 -20px;} 
 
+#Menu ul#menuButs li{margin-top: 0px; margin-bottom: 0px;} 
+
 #Main {background: url(img/backgrMain.png) repeat-y; width: 999px; margin: -1px 0 0 0;}
 
-#Footer {background: url(img/backgrBot.png) no-repeat; width: 999px; height: 27px; line-height: 6px;}
+#Footer {background: url(img/backgrBot.png) no-repeat; width: 999px; height: 27px;}
 
 #Left{float:left; margin: 0 0 0 4px;}
 
@@ -26,11 +28,11 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 
 #contactsMain{color:#4a6d14; font-family:Arial; font-size:10pt; margin:0 0 5px 0;}
 
-#menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px;} 
-#menuButTop:hover{background: url(img/MenuButTopHover.png) no-repeat; width:210px; height: 37px;} 
+#menuButTop{background: url(img/MenuButTop.png) no-repeat; width:210px; height: 37px; text-align:left; line-height: 40px;} 
+#menuButTop:hover{background: url(img/MenuButTopHover.png) no-repeat; width:210px; height: 37px; text-align:left; line-height: 40px;} 
 
-#menuButBot{background: url(img/MenuButBot.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
-#menuButBot:hover{background: url(img/MenuButBotHover.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0;} 
+#menuButBot{line-height: 30px;background: url(img/MenuButBot.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0; text-align:left; } 
+#menuButBot:hover{background: url(img/MenuButBotHover.png) no-repeat; width:210px; height: 38px; margin:-1px 0 0 0; text-align:left; line-height: 30px;} 
 
 #Search{background: url(img/MidTop.png) no-repeat; width:540px; height: 55px;}
 
@@ -69,9 +71,9 @@ body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 
 #Pochivki_onclick a:visited {color:#fff; text-decoration:none; font-size:11pt; font-family: Arial, Tahoma, Verdana, sans-serif;}
 #Pochivki_onclick a:hover {color:#fff; text-decoration:underline; font-size:11pt; font-family: Arial, Tahoma, Verdana, sans-serif;}
 
-#Footer #FooterLeft{float:left; margin: 0 0 0 20px;}
+#Footer #FooterLeft{float:left; margin: -6px 0 0 20px;}
 
-#Footer #FooterRight{float:right; margin: 0 20px 0 0;}
+#Footer #FooterRight{float:right; margin: -6px 20px 0 0;}
 
 #Nav ul.NavMain {display: inline; list-style: none; margin-top:0px;}
 
@@ -103,8 +105,9 @@ a:hover{color: #4a6d14; font-family: Arial, Tahoma, Verdana, sans-serif;  font-s
 
 .blueOff{margin: 0 0 0 15px;}
 
-.ButtonYzZ_down1{height: 30px;  background-color:#c5e1ee; border: 1px solid #2a9cd2; width:300px; line-height: 30px; padding: 0 0 0 2px;}
-.ButtonYzZ_down1:hover{background-color:#c0dce9;}
+.ButtonYzZ_down1{height: 40px; background: url(img/ButtonYzZ_down1.png) no-repeat; width:300px; line-height: 42px; padding: 0 0 0 10px;}
+
+.ButtonYzZ_down2{height: 40px;  background: url(img/ButtonYzZ_down2.png) no-repeat; width:300px; line-height: 40px; padding: 0 0 0 10px;}
 
 .ButtonNachalo{width: 79px;}
 .ButtonNachalo:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 29px; margin:-2px 0 0 0; padding:2px 0 0 0;}
@@ -177,16 +180,16 @@ a:hover{color: #4a6d14; font-family: Arial, Tahoma, Verdana, sans-serif;  font-s
 
 .menuGreenBot{background: url(img/MenuGreenBot.png) no-repeat; width:210px; height:25px;} 
 
-.textTop{float:left; margin: 10px 0 0 10px;}
+.textTop{margin: 0 0 0 10px;}
 
-.text{float:left; margin: 5px 0 0 10px;}
+.text{margin: 0 0 0 10px;}
 
 .icon{float:left;}
 
 .fb-like-box{margin:0 0 0 1px;}
 
-.menuBut{background: url(img/MenuBut.png) no-repeat; width:210px; height: 34px;} 
-.menuBut:hover{background: url(img/MenuButHover.png) no-repeat; width:210px; height: 34px;} 
+.menuBut{background: url(img/MenuBut.png) no-repeat; width:210px; height: 34px; text-align:left; line-height: 30px;} 
+.menuBut:hover{background: url(img/MenuButHover.png) no-repeat; width:210px; height: 34px; text-align:left; line-height: 30px;} 
 
 .Line994{background: url(img/Line994.png) no-repeat; width:977px; height: 2px; margin:0 0 5px 0;} 
 
