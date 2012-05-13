@@ -68,8 +68,8 @@ $(window).load(function() {
 		<div id="Header">
 			<div id="slider">
 				<img src="../Project/css/img/greece.png" width="999" height="302"/>
-				<img src="../Project/css/img/turkey.png" width="999" height="302"/>
-				<img src="../Project/css/img/sozopol.png" width="999" height="302"/>
+				<img src="../Project/css/img/prague.png" width="999" height="302"/>
+				<img src="../Project/css/img/istanbul.png" width="999" height="302"/>
 				<img src="../Project/css/img/valensia.png" width="999" height="302"/>
 				<img src="../Project/css/img/italy.png" width="999" height="302"/>
 			</div>
