@@ -1,4 +1,4 @@
-body{background: url(img/back.png) repeat-x; background-color: #016db8; height: 298px;}
+body{background: url(img/back.png) repeat-x; background-color: #3c7abe; height: 302px;}
 
 #GrandContainer {}
 
@@ -105,9 +105,9 @@ a:hover{color: #4a6d14; font-family: Arial, Tahoma, Verdana, sans-serif;  font-s
 
 .blueOff{margin: 0 0 0 15px;}
 
-.ButtonYzZ_down1{height: 40px; background: url(img/ButtonYzZ_down1.png) no-repeat; width:300px; line-height: 42px; padding: 0 0 0 10px;}
+.ButtonYzZ_down1{height: 40px; background: url(img/ButtonYzZ_down1.png) no-repeat; width:320px; line-height: 42px; padding: 0 0 0 10px;}
 
-.ButtonYzZ_down2{height: 40px;  background: url(img/ButtonYzZ_down2.png) no-repeat; width:300px; line-height: 40px; padding: 0 0 0 10px;}
+.ButtonYzZ_down2{height: 40px;  background: url(img/ButtonYzZ_down2.png) no-repeat; width:320px; line-height: 40px; padding: 0 0 0 10px;}
 
 .ButtonNachalo{width: 79px;}
 .ButtonNachalo:hover{background: url(img/NachaloHover.png) no-repeat; width: 79px; height: 29px; margin:-2px 0 0 0; padding:2px 0 0 0;}
