@@ -1,0 +1,38 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/tinymce/jscripts/tiny_mce/tiny_mce.js" ></script>
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/jquery/TinyMce.js"></script>
+ <form name="AdminOffer" method="post" enctype="multipart/form-data"  action='?r=/admin/admin'>		
+            
+            
+ 	       <label for="type">Type:</label>
+           <select id="type" name="Type">
+              <option value="p">Почивка</option>
+           </select><br />
+           
+           <label for="country">Country:</label>
+           <select id="country" name="Country">
+              <option value="bg">България</option>
+              <option value="tr" disabled="disabled">Турция</option>
+              <option value="gr">Гърция</option>
+              <option value="esp">Испания</option>
+              <option value="it">Италия</option>
+              <option value="dr">Други страни</option>
+           </select><br />
+           
+           <label for="visible">Visible:</label>
+           <select id="visible" name="Visible">
+              <option value=1>Visible</option>
+              <option value=0>Not Visible</option>
+           </select><br />
+           
+           <label for="dest">Destination:</label><input type="text" name="Dest" id="dest" required=”true” placeholder="Zaglavie"><br />
+       	   <label for="info">Opisanie:</label><input type="text" name="Info" id="info" required=”true” placeholder="Kratko Opisanie"><br />
+           <label for="price">Price:</label><input type="text" name="Price" id="price" required=”true” placeholder="Cena"><br />
+           <label for="image">Image:</label><input type="file" name="image" id="image" required=”true”><br />
+                <textarea name="content" cols="50" rows="15"></textarea>
+                <input name="Submit" type="submit" value="Submit">
+
+</form>
+<form method "post">
+	<input type="submit" value="Preview">
+</form>

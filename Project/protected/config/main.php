@@ -59,6 +59,21 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 		),
+
+		/**
+
+		//db on ivanikobg.net
+		
+		'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=ivanikob_Project',
+			'emulatePrepare' => true,
+			'username' => 'ivanikob_irege',
+			'password' => 'hiirege',
+			'charset' => 'utf8',
+		),
+
+
+		**/
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors

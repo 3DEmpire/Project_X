@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+	public $layout='main';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -106,36 +107,48 @@ class SiteController extends Controller
 		$connection=Yii::app()->db;
 		$command=$connection->createCommand('SELECT * FROM offers');
 		$allRows=$command->queryAll();
-		$row=$command->queryRow();
-		$column = new AnOffer();
-		$column->setData($allRows);
-		//echo var_dump($column->getData());die();
+		//$Row=$command->queryRow();
 		$this->render('demo',array('allRows'=>$allRows));
-	}
-	
-	public function actionAdmin() {
-		if(isset($_POST['Dest'])
-		   && isset($_POST['Dest'])
-		   && isset($_POST['Dest']))
-		{
-			$connection=Yii::app()->db;
-			$command=$connection->createCommand();
-			$dest=$_POST['Dest'];
-			$info=$_POST['Info'];
-			$price=$_POST['Price'];
-			
-			$column=array(
-				'DEST'=>$dest,
-				'INFO'=>$info,
-				'PRICE'=>$price,
-			);
-			$command->insert('offers',$column);
-		}
-		
-		$this->render('admin');
 	}
 	
 	public function actionSearch() {
 		$this->render('search');
+	}
+	
+	public function actionRests() {
+		//$connection=Yii::app()->db;
+		//$command=$connection->createCommand('SELECT * FROM alloffers');
+		//$allRows=$command->queryAll();
+		
+		$modelall=Alloffers::model()->findall('COUNTRY="'.$_GET['country'].'" AND TYPE="'.$_GET['type'].'"');
+				
+		$this->render('rests',array('modelall'=>$modelall));
+	}
+	
+	
+	public function actionPraznici() {
+	
+		$modelall=Alloffers::model()->findall('PRAZNIK=1');
+				
+		$this->render('praznici',array('modelall'=>$modelall));
+	}
+	
+	public function actionWeekends() {
+	
+		$modelall=Alloffers::model()->findall('WEEKEND=1');
+				
+		$this->render('weekends',array('modelall'=>$modelall));
+	}
+	
+	public function actionTrips() {
+		$this->render('trips');
+	}
+	
+	public function actionSatrips() {
+		$this->render('satrips');
+	}
+	
+	public function actionFbstena() {
+		$this->render('fbstena');
 	}
 }

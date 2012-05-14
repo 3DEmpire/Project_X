@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+	public $layout='main';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -111,25 +112,6 @@ class SiteController extends Controller
 		$model->setData($Row);
 		//echo var_dump($column->getData());die();
 		$this->render('demo',array('allRows'=>$allRows,'model'=>$model));
-	}
-	
-	public function actionAdmin() {
-		if(isset($_POST['Dest'])
-		   && isset($_POST['Dest'])
-		   && isset($_POST['Dest']))
-		{
-			//echo '<pre>' ;var_dump($image);die();
-			$column=array(
-				'DEST'=>$_POST['Dest'],
-				'INFO'=>$_POST['Info'],
-				'PRICE'=>$_POST['Price'],
-				'IMAGE'=>$_FILES['image']['name'],
-			);
-			$model=new AnOffer();
-			$model->setData($column);
-			$model->save();
-		}
-		$this->render('admin');
 	}
 	
 	public function actionSearch() {

@@ -2492,3 +2492,718 @@ REQUEST_URI=/Project/?r=/site/demo
 in E:\wamp\www\Project\protected\models\AnOffer.php (48)
 in E:\wamp\www\Project\protected\views\site\demo.php (16)
 in E:\wamp\www\Project\protected\controllers\SiteController.php (113)
+2012/03/27 19:32:23 [error] [php] Undefined index: content (E:\wamp\www\Project\protected\views\site\index.php:3)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): SiteController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): SiteController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\SiteController.php(32): SiteController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(288): SiteController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): SiteController->runActionWithFilters()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?content=%3Cp%3EThis+is+some+content+that+will+be+editable+with+TinyMCE.%3C%2Fp%3E
+in E:\wamp\www\Project\protected\views\site\index.php (3)
+in E:\wamp\www\Project\protected\controllers\SiteController.php (32)
+in E:\wamp\www\Project\index.php (13)
+2012/03/27 20:51:14 [error] [php] Undefined index: content (E:\wamp\www\Project\protected\views\site\index.php:3)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): SiteController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): SiteController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\SiteController.php(32): SiteController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(288): SiteController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): SiteController->runActionWithFilters()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/
+in E:\wamp\www\Project\protected\views\site\index.php (3)
+in E:\wamp\www\Project\protected\controllers\SiteController.php (32)
+in E:\wamp\www\Project\index.php (13)
+2012/03/27 20:52:29 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php:880
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): CController->renderPartial('admin', NULL, true)
+#1 E:\wamp\www\Project\protected\controllers\AdminController.php(58): CController->render('admin')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 E:\wamp\www\Project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Project/?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/
+---
+2012/03/27 20:53:00 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php:880
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): CController->renderPartial('admin', NULL, true)
+#1 E:\wamp\www\Project\protected\controllers\AdminController.php(58): CController->render('admin')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 E:\wamp\www\Project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Project/?r=/admin/admin
+---
+2012/03/27 20:54:54 [error] [exception.CException] exception 'CException' with message 'AdminController has an extra endWidget(CContentDecorator) call in its view.' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php:211
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 E:\wamp\www\Project\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('E:\wamp\www\Pro...')
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('E:\wamp\www\Pro...', Array, true)
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(786): CBaseController->renderFile('E:\wamp\www\Pro...', Array, true)
+#5 E:\wamp\www\Project\protected\controllers\AdminController.php(58): CController->render('admin')
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#16 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#17 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 E:\wamp\www\Project\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Project/?r=/admin/admin
+---
+2012/03/27 20:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php:485
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(272): CController->missingAction('admin')
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/site/admin')
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\wamp\www\Project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Project/?r=/site/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/?r=/admin/admin
+---
+2012/03/28 18:17:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{offers}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{offers}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:17:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{offers}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:18:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{{offers}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{offers}}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:18:07 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{offers}}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:18:21 [error] [exception.CException] exception 'CException' with message 'Property "Offer.create_time" is not defined.' in E:\wamp\www\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(160): CComponent->__set('create_time', 1332958701)
+#1 E:\wamp\www\Project\protected\models\Offer.php(138): CActiveRecord->__set('create_time', 1332958701)
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(1008): Offer->beforeSave()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#4 E:\wamp\www\Project\protected\controllers\AdminController.php(59): CActiveRecord->save()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#16 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 E:\wamp\www\Project\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:18:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{offers}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{offers}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:18:34 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{offers}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:19:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{project,offers}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{project,offers}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:19:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{project,offers}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:21:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1017 Can't find file: '.\project\@007b@0022offers@0022@007d.frm' (errno: 22). The SQL statement executed was: SHOW COLUMNS FROM `{"offers"}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:21:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{"offers"}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:22:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{offers}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{offers}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:22:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{offers}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:24:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{rests}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{rests}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:24:11 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{rests}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:25:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.{offers}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{offers}`.
+in E:\wamp\www\Project\protected\controllers\AdminController.php (57)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 18:25:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{offers}" for active record class "Offer" cannot be found in the database.' in E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Offer))
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Offer')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 E:\wamp\www\Project\protected\controllers\AdminController.php(57): CActiveRecord->__construct()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 E:\wamp\www\Project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 18:25:55 [error] [exception.CException] exception 'CException' with message 'Property "Offer.create_time" is not defined.' in E:\wamp\www\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(160): CComponent->__set('create_time', 1332959155)
+#1 E:\wamp\www\Project\protected\models\Offer.php(138): CActiveRecord->__set('create_time', 1332959155)
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(1008): Offer->beforeSave()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#4 E:\wamp\www\Project\protected\controllers\AdminController.php(59): CActiveRecord->save()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#16 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 E:\wamp\www\Project\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Project/index.php?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/index.php?r=/admin/admin
+---
+2012/03/28 20:37:13 [error] [php] Use of undefined constant tinyMCE - assumed 'tinyMCE' (E:\wamp\www\Project\protected\views\admin\admin.php:157)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): AdminController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): AdminController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\AdminController.php(62): AdminController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): AdminController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): AdminController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): AdminController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/index.php?r=/admin/admin
+in E:\wamp\www\Project\protected\views\admin\admin.php (157)
+in E:\wamp\www\Project\protected\controllers\AdminController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 20:38:46 [error] [php] Use of undefined constant tinyMCE - assumed 'tinyMCE' (E:\wamp\www\Project\protected\views\admin\admin.php:157)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): AdminController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): AdminController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\AdminController.php(62): AdminController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): AdminController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): AdminController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): AdminController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/index.php?r=/admin/admin
+in E:\wamp\www\Project\protected\views\admin\admin.php (157)
+in E:\wamp\www\Project\protected\controllers\AdminController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/28 20:40:33 [error] [php] Use of undefined constant tinyMCE - assumed 'tinyMCE' (E:\wamp\www\Project\protected\views\admin\admin.php:157)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): AdminController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): AdminController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\AdminController.php(62): AdminController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): AdminController->actionAdmin()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): AdminController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): AdminController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): AdminController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/index.php?r=/admin/admin
+in E:\wamp\www\Project\protected\views\admin\admin.php (157)
+in E:\wamp\www\Project\protected\controllers\AdminController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php:485
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(272): CController->missingAction('admin')
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('admin')
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/admin/admin')
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 E:\wamp\www\Project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Project/?r=/admin/admin
+HTTP_REFERER=http://127.0.0.1:8080/Project/?r=/site/demo
+---
+2012/03/29 22:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/OfferInfo/OfferInfo".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/OfferInfo/Offe...')
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\wamp\www\Project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Project/?r=/OfferInfo/OfferInfo
+HTTP_REFERER=http://127.0.0.1:8080/Project/?r=/site/demo
+---
+2012/03/29 22:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/OfferInfo/offerInfo".' in E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/OfferInfo/offe...')
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\wamp\www\Project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Project/?r=/OfferInfo/offerInfo
+---
+2012/03/29 22:33:01 [error] [php] Undefined variable: allRows (E:\wamp\www\Project\protected\views\offer\offerInfo.php:6)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(64): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/Offer/offerInfo
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (6)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (64)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:48:43 [error] [php] Undefined variable: i (E:\wamp\www\Project\protected\views\offer\offerInfo.php:6)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(64): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (6)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (64)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:49:07 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\views\offer\offerInfo.php:5)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(64): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (5)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (64)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:53:22 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\controllers\OfferController.php:62)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:53:58 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\controllers\OfferController.php:62)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:54:44 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\controllers\OfferController.php:62)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/29 22:55:21 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\views\offer\offerInfo.php:5)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(62): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (5)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:00:28 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\views\offer\offerInfo.php:5)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(62): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (5)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:07:11 [error] [php] Undefined variable: model (E:\wamp\www\Project\protected\views\offer\offerInfo.php:5)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(62): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo&id=79
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (5)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:29:25 [error] [php] Use of undefined constant id - assumed 'id' (E:\wamp\www\Project\protected\views\offer\offerInfo.php:6)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(62): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo&id=79
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (6)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:29:56 [error] [php] Use of undefined constant id - assumed 'id' (E:\wamp\www\Project\protected\views\offer\offerInfo.php:6)
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): OfferController->renderFile()
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): OfferController->renderPartial()
+#2 E:\wamp\www\Project\protected\controllers\OfferController.php(62): OfferController->render()
+#3 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams()
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): OfferController->runAction()
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CAccessControlFilter->filter()
+#8 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): OfferController->filterAccessControl()
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): OfferController->runActionWithFilters()
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): OfferController->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 E:\wamp\www\Project\index.php(13): CWebApplication->run()
+REQUEST_URI=/Project/?r=/offer/offerInfo&id=79
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (6)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:41:56 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["id"] LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `offers` `t` WHERE ID=$_GET["id"] LIMIT 1.
+in E:\wamp\www\Project\protected\views\offer\offerInfo.php (5)
+in E:\wamp\www\Project\protected\controllers\OfferController.php (62)
+in E:\wamp\www\Project\index.php (13)
+2012/03/30 18:41:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["id"] LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `offers` `t` WHERE ID=$_GET["id"] LIMIT 1' in E:\wamp\www\yii-1.1.10.r3566\framework\db\CDbCommand.php:528
+Stack trace:
+#0 E:\wamp\www\yii-1.1.10.r3566\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 E:\wamp\www\yii-1.1.10.r3566\framework\db\ar\CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 E:\wamp\www\Project\protected\views\offer\offerInfo.php(5): CActiveRecord->find('ID=$_GET["id"]')
+#4 E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('E:\wamp\www\Pro...')
+#5 E:\wamp\www\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('E:\wamp\www\Pro...', NULL, true)
+#6 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(871): CBaseController->renderFile('E:\wamp\www\Pro...', NULL, true)
+#7 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(784): CController->renderPartial('offerInfo', NULL, true)
+#8 E:\wamp\www\Project\protected\controllers\OfferController.php(62): CController->render('offerInfo')
+#9 E:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): OfferController->actionOfferInfo()
+#10 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(310): CInlineAction->runWithParams(Array)
+#11 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(1147): CFilter->filter(Object(CFilterChain))
+#14 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 E:\wamp\www\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(293): CFilterChain->run()
+#17 E:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(267): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('offerInfo')
+#19 E:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('/offer/offerInf...')
+#20 E:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 E:\wamp\www\Project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Project/?r=/offer/offerInfo&id=81
+---
