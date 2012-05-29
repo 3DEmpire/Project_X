@@ -87,7 +87,7 @@ $(window).load(function() {
 					</a>
 				</li>
 				<li class="NavMain">
-					<a href='?r=admin/admin'>
+					<a href='?r=offer/zaNas'>
 						<div class="ButtonLicenz">Лиценз</div>
 					</a>
 				</li>
@@ -98,18 +98,18 @@ $(window).load(function() {
 					</a>
 					<ul class="SubMenu">
 						<li>
-							<a href="#"><div class="ButtonYzZ_down1">Договор с клиент за организирано пътуване</div></a>
-							<a href="#"><div class="ButtonYzZ_down2">Договор при пътуване със собствен транспорт</div></a>
+							<a href='?r=offer/zaNas'><div class="ButtonYzZ_down1">Договор с клиент за организирано пътуване</div></a>
+							<a href='?r=offer/zaNas'><div class="ButtonYzZ_down2">Договор при пътуване със собствен транспорт</div></a>
 						</li>
 					</ul>
 				</li>
 				<li class="NavMain">
-					<a href="#">
+					<a href='?r=site/bsmetki'>
 						<div class="ButtonBs">Банкови сметки</div>
 					</a>
 				</li>
 				<li class="NavMain">
-					<a href="#">
+					<a href='?r=offer/contacts'>
 						<div class="ButtonKont">Контакти</div>
 					</a>
 				</li>
@@ -125,7 +125,7 @@ $(window).load(function() {
 			</div>
 			<div id="Left">
 				<div id="Menu">
-							<a href="#"><div id="menuButTop">
+							<a href="index.php"><div id="menuButTop">
 								<span class="textTop">Начало</span>
 							</div></a>
 							<a href="#" onclick="showPochivki()"><div class="menuBut">
@@ -134,20 +134,16 @@ $(window).load(function() {
 							<div id="Pochivki_onclick">
 										<a href='?r=/site/rests&country=bg&type=p'><div class="poch_on_OffText">България</div></a>
 										<a href='?r=/offer/reststr'><div class="poch_on_OffText">Турция</div></a>
-
 										<a href='?r=/site/rests&country=gr&type=p'><div class="poch_on_OffText">Гърция</div></a>
-
 										<a href='?r=/site/rests&country=esp&type=p'><div class="poch_on_OffText">Испания</div></a>
-
 										<a href='?r=/site/rests&country=it&type=p'><div class="poch_on_OffText">Италия</div></a>
-
 										<a href='?r=/site/rests&country=dr&type=p'><div class="poch_on_OffText">Други страни</div></a>
 							</div>
 							<a href='?r=site/trips&type=av'><div class="menuBut">
-								<span class="text">Екскурзии</span>
+								<span class="text">Екскурзии Автобус</span>
 							</div></a>
 							<a href='?r=site/trips&type=sa'><div class="menuBut">
-								<span class="text">Екскурзии</span>
+								<span class="text">Екскурзии Самолет</span>
 							</div></a>
 							<a href='?r=offer/hoteli'><div class="menuBut">
 								<span class="text">Хотели</span>
@@ -161,11 +157,6 @@ $(window).load(function() {
 							<a href='?r=/site/weekends'><div id="menuButBot">
 								<span class="text">Уикенди</span>
 							</div></a>
-				</div>
-				<div class="menuBlue">
-						<div class="menuBlueTop">Нещо</div>
-						<div class="menuBlueMain">asdasdasdasd</div>
-						<div class="menuBlueBot"></div>
 				</div>
 			</div>
 			<div id="Mid">
@@ -202,41 +193,6 @@ $(window).load(function() {
 								}
 							  }
 						     ?>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">Испания 55+</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">остров Кипър 55+ Лимасол</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">остров Кипър 55+ Пафос</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">Валенсия 55+</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">Испания 55+</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">остров Кипър 55+ Лимасол</a></div>
-								<div class="clearer"></div>
-							</li>
-							<li class="blueOff">
-								<div class="yellowPointer"></div>
-								<div class="blueOffText"><a href="#">остров Кипър 55+ Пафос</a></div>
-								<div class="clearer"></div>
-							</li>
 						</ul>
 					</div>
 					<div id="rightBlueBot"></div>
@@ -245,7 +201,9 @@ $(window).load(function() {
 						<div class="menuGreenTop">facebook</div>
 						<div class="menuGreenMain">
 							<div class="fb-like-box" data-href="http://www.facebook.com/IvanikoTur" data-width="206" data-show-faces="true" data-border-color="#466a14" data-stream="false" data-header="true"></div>
+                            <a href='?r=site/fbstena'><div id="facebookButton"></div></a>
 						</div>
+                        
 						<div class="menuGreenBot"></div>
 				</div>
 			</div>

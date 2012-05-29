@@ -70,7 +70,6 @@ class Offer extends CActiveRecord
 			'PRICE' => 'price',
 			'IMAGE' => 'image',
 			'CONTENT' =>'content',
-			'TABLE'=>'table',
 			//'ACTIVE' =>'active',
 		);
 	}

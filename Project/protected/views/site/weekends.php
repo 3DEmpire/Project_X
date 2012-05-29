@@ -1,6 +1,7 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
 <?php
+
 for($i=0;$i<sizeof($modelall);$i++) {
 	//$modelall=Alloffers::model()->find('COUNTRY="'.$_GET['country'].'"');
 	//echo $model->getAttribute('ID');

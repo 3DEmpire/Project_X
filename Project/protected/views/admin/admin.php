@@ -7,7 +7,7 @@
 	
 </style>
 
-<form name="AdminOffer" method="post" enctype="multipart/form-data"  action='?r=/admin/admin' id="form">
+<form name="AdminOffer" method="post" enctype="multipart/form-data"  action='?r=/admin/admin' id="form" style="height:350px">
 	<div id="formAll">
     	<div id="left">
         	<div id="headerNew">Нова оферта
@@ -30,5 +30,59 @@
         	<input name="Submit" type="submit" value="Submit">
         </div>
 	</div>
+</form>
+
+<form name="EditOffer" method="post" action="?r=/admin/edit" id="Editform">
+    <div id="Edit">
+        <label>Izberete koq oferta iskate da promenite:</label>
+        <select id="edit" name="Editt">
+        	<option value="00">Choose</option>
+            <?php
+				for($i=0;$i<sizeof($modelall);$i++){
+					if($modelall[$i]->getAttribute('TYPE')=='p'){
+						$model=Offer::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					if($modelall[$i]->getAttribute('TYPE')=='av'){
+						$model=AvTrip::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					if($modelall[$i]->getAttribute('TYPE')=='sa'){
+						$model=SaTrip::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					echo '
+						<option value="'.$modelall[$i]->getAttribute('ID').'">'.$model->getAttribute('DEST').'</option>
+					';
+				}
+            ?>
+        </select>
+        <input type="submit" name="Edit" value="Edit" />
+    </div>
+</form>
+
+
+
+<form name="DeleteOffer" method="post" action="?r=/admin/edited" id="Deleteform">
+    <div id="Delete">
+        <label>Izberete koq oferta iskate da Iztriete:</label>
+        <select id="delete" name="Deletee">
+        	<option value="00">Choose</option>
+            <?php
+				for($i=0;$i<sizeof($modelall);$i++){
+					if($modelall[$i]->getAttribute('TYPE')=='p'){
+						$model=Offer::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					if($modelall[$i]->getAttribute('TYPE')=='av'){
+						$model=AvTrip::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					if($modelall[$i]->getAttribute('TYPE')=='sa'){
+						$model=SaTrip::model()->find('ID='.$modelall[$i]->getAttribute('IDO'));
+					}
+					echo '
+						<option value="'.$modelall[$i]->getAttribute('ID').'">'.$model->getAttribute('DEST').'</option>
+					';
+				}
+            ?>
+        </select>
+        <input type="submit" name="Delete" value="Delete" />
+    </div>
 </form>
 <h2><a href='index.php'>Back</a></h2>

@@ -151,4 +151,8 @@ class SiteController extends Controller
 	public function actionFbstena() {
 		$this->render('fbstena');
 	}
+	
+	public function actionBsmetki() {
+		$this->render('bsmetki');
+	}
 }
